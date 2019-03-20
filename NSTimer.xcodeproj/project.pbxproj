@@ -19,6 +19,8 @@
 		57061FB82241404D00AB8559 /* ThreeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57061FB72241404D00AB8559 /* ThreeController.m */; };
 		57061FBB2241406300AB8559 /* TwoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57061FBA2241406200AB8559 /* TwoController.m */; };
 		57061FBE2241424300AB8559 /* TestProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57061FBD2241424300AB8559 /* TestProxy.m */; };
+		A81847192241EB070020C66A /* FourController.m in Sources */ = {isa = PBXBuildFile; fileRef = A81847182241EB070020C66A /* FourController.m */; };
+		A818471C2241EDAB0020C66A /* NSTimer+JNTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = A818471B2241EDAB0020C66A /* NSTimer+JNTimer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,10 @@
 		57061FBA2241406200AB8559 /* TwoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoController.m; sourceTree = "<group>"; };
 		57061FBC2241424300AB8559 /* TestProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestProxy.h; sourceTree = "<group>"; };
 		57061FBD2241424300AB8559 /* TestProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestProxy.m; sourceTree = "<group>"; };
+		A81847172241EB070020C66A /* FourController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourController.h; sourceTree = "<group>"; };
+		A81847182241EB070020C66A /* FourController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourController.m; sourceTree = "<group>"; };
+		A818471A2241EDAB0020C66A /* NSTimer+JNTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+JNTimer.h"; sourceTree = "<group>"; };
+		A818471B2241EDAB0020C66A /* NSTimer+JNTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+JNTimer.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +129,10 @@
 				57061FBA2241406200AB8559 /* TwoController.m */,
 				57061FB62241404D00AB8559 /* ThreeController.h */,
 				57061FB72241404D00AB8559 /* ThreeController.m */,
+				A81847172241EB070020C66A /* FourController.h */,
+				A81847182241EB070020C66A /* FourController.m */,
+				A818471A2241EDAB0020C66A /* NSTimer+JNTimer.h */,
+				A818471B2241EDAB0020C66A /* NSTimer+JNTimer.m */,
 				57061FBC2241424300AB8559 /* TestProxy.h */,
 				57061FBD2241424300AB8559 /* TestProxy.m */,
 				57061F8422413A7200AB8559 /* Main.storyboard */,
@@ -282,9 +292,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A818471C2241EDAB0020C66A /* NSTimer+JNTimer.m in Sources */,
 				57061FB222413D0C00AB8559 /* OneController.m in Sources */,
 				57061F8322413A7200AB8559 /* ViewController.m in Sources */,
 				57061FBE2241424300AB8559 /* TestProxy.m in Sources */,
+				A81847192241EB070020C66A /* FourController.m in Sources */,
 				57061F8E22413A7300AB8559 /* main.m in Sources */,
 				57061FB82241404D00AB8559 /* ThreeController.m in Sources */,
 				57061FBB2241406300AB8559 /* TwoController.m in Sources */,
@@ -462,6 +474,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9T6M24N5BR;
 				INFOPLIST_FILE = NSTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -479,6 +492,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9T6M24N5BR;
 				INFOPLIST_FILE = NSTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
